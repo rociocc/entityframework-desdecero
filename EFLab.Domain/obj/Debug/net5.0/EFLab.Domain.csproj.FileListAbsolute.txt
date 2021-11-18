@@ -1,0 +1,12 @@
+/Users/rocioc/Projects/Playground/EFLab/EFLab.Domain/bin/Debug/net5.0/EFLab.Domain.deps.json
+/Users/rocioc/Projects/Playground/EFLab/EFLab.Domain/bin/Debug/net5.0/EFLab.Domain.dll
+/Users/rocioc/Projects/Playground/EFLab/EFLab.Domain/bin/Debug/net5.0/ref/EFLab.Domain.dll
+/Users/rocioc/Projects/Playground/EFLab/EFLab.Domain/bin/Debug/net5.0/EFLab.Domain.pdb
+/Users/rocioc/Projects/Playground/EFLab/EFLab.Domain/obj/Debug/net5.0/EFLab.Domain.csproj.AssemblyReference.cache
+/Users/rocioc/Projects/Playground/EFLab/EFLab.Domain/obj/Debug/net5.0/EFLab.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rocioc/Projects/Playground/EFLab/EFLab.Domain/obj/Debug/net5.0/EFLab.Domain.AssemblyInfoInputs.cache
+/Users/rocioc/Projects/Playground/EFLab/EFLab.Domain/obj/Debug/net5.0/EFLab.Domain.AssemblyInfo.cs
+/Users/rocioc/Projects/Playground/EFLab/EFLab.Domain/obj/Debug/net5.0/EFLab.Domain.csproj.CoreCompileInputs.cache
+/Users/rocioc/Projects/Playground/EFLab/EFLab.Domain/obj/Debug/net5.0/EFLab.Domain.dll
+/Users/rocioc/Projects/Playground/EFLab/EFLab.Domain/obj/Debug/net5.0/ref/EFLab.Domain.dll
+/Users/rocioc/Projects/Playground/EFLab/EFLab.Domain/obj/Debug/net5.0/EFLab.Domain.pdb

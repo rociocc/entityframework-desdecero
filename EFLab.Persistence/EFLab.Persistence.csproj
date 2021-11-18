@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Microsoft.EntityFrameworkCore.Design" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL" />
+    <None Remove="Microsoft.Extensions.Configuration" />
+    <None Remove="Microsoft.Extensions.Configuration.FileExtensions" />
+    <None Remove="Microsoft.Extensions.Configuration.EnvironmentVariables" />
+    <None Remove="Microsoft.Extensions.Configuration.Json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.12">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.12">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EFLab.Domain\EFLab.Domain.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using EntityFramework.API.Entities;
+﻿using EFLab.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace EFLab
 {
@@ -28,7 +21,7 @@ namespace EFLab
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<EFLabContext>(options =>
-                options.UseNpgsql(Configuration.GetConnectionString("EFLabCS"))
+                options.UseNpgsql(Configuration.GetConnectionString("EFLabDatabaseCS"))
             );
             services.AddControllers();
         }

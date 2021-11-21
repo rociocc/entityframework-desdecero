@@ -1,6 +1,4 @@
-﻿using System;
-using EntityFramework.API.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace EFLab.Persistence
 {

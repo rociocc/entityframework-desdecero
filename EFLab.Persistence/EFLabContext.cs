@@ -4,7 +4,7 @@ using EFLab.Domain.Entities;
 using EFLab.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace EntityFramework.API.Entities
+namespace EFLab.Persistence
 {
     public class EFLabContext : DbContext, IEFLabContext
     {
